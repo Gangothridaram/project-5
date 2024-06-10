@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Page</title>
+    <style>
+        body{
+            
+            background-image: url(cream.jpeg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        body, html {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            font-family: Arial, sans-serif;
+        }
+        .video-background {
+            position: fixed;
+            right: 0;
+            bottom: 0;
+            min-width: 100%;
+            min-height: 100%;
+            z-index: -1;
+        }
+        .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0); /* Adjust the overlay color and opacity */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .registration-form {
+            background: rgba(255, 255, 255, 0.8);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        .registration-form h2 {
+            margin-bottom: 20px;
+        }
+        .registration-form input {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .registration-form button {
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            background-color: #28a745;
+            color: white;
+            cursor: pointer;
+        }
+        .registration-form button:hover {
+            background-color: #218838;
+        }
+    </style>
+</head>
+<body>
+    
+
+    <div class="overlay">
+        <div class="registration-form">
+            <h2>Register</h2>
+            <form action="suces.html">
+            <form action="register.php" method="post">
+                <input type="text" name="name" placeholder="Name" required>
+                <input type="email" name="email" placeholder="Email" required>
+                <input type="password" name="password" placeholder="Password" required>
+                <input type="phonenumber" name="password" placeholder="Phonenumber" required>
+                <input type="date" name="birthday" placeholder="date of birth" required>
+                <button type="submit">Submit</button>
+            </form>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
